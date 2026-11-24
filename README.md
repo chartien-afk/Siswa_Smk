@@ -1,17 +1,24 @@
-# flutter_application_3
+# SISTER SKANSIKA — Flutter (Konsep Minimalis)
 
-A new Flutter project.
+## Cara menjalankan
+1. Buat project Flutter baru atau buka folder ini di VS Code.
+2. Pastikan Flutter SDK dan Android SDK sudah terpasang.
+3. Jalankan di terminal:
 
-## Getting Started
+```bash
+flutter pub get
+flutter run
+```
 
-This project is a starting point for a Flutter application.
+## Isi aplikasi
+- Login (validasi sederhana lokal)
+- Beranda dan jadwal contoh
+- Presensi wajah (simulasi UI, belum memakai kamera/face recognition)
+- Daftar 14 mata pelajaran dan pencarian
+- Halaman ujian
+- Profil, data diri, dan mode gelap
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Catatan
+Ini adalah prototype UI/fungsionalitas dasar sekitar 80% untuk tampilan konsep.
+Login belum terhubung ke server/database. Data jadwal, profil, materi, ujian, dan presensi masih contoh/lokal.
+Presensi wajah hanya simulasi, belum memverifikasi wajah sungguhan.
